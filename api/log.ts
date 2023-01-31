@@ -28,9 +28,8 @@ export default async (req: VercelRequest, res: VercelResponse) => {
 					${msg.attachments.map((f, v) => `<a href="${f}">Image ${v}</a>`).join(' ')}
 			</div>` : ''}
 			<footer>
-  <p>Author: Hege Refsnes</p>
-  <p> ${msg.timestamp} </p>
-</footer>
+			<p>${msg.timestamp} </p>
+			</footer>
 		</div>
 	</td>
 </tr>
