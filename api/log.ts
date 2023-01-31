@@ -26,6 +26,7 @@ export default async (req: VercelRequest, res: VercelResponse) => {
 			${msg.attachments && msg.attachments.length > 0 ? `
 			<div class="files">
 					${msg.attachments.map((f, v) => `<a href="${f}">Image ${v}</a>`).join(' ')}
+					- ${msg.timestamp
 			</div>` : ''}
 		</div>
 	</td>
