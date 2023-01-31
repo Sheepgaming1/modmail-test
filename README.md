@@ -1,3 +1,3 @@
-# Mail Viewer for ThePhoDit's ModMail.
+# Mail Viewer for The TLBRP Support Mail.
 
-Please find the documentation at https://modmail.phodit.xyz for the ModMail installation guide.
+Please find the documentation at http://logs.tlbrp.co.uk for the ModMail installation guide.
