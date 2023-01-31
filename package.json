@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ThePhoDit/ModMailLogs.git"
+    "url": "git+https://github.com/Sheepgaming1/modmail-test.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ThePhoDit/ModMailLogs/issues"
+    "url": "https://github.com/Sheepgaming1/modmail-test/"
   },
-  "homepage": "https://github.com/ThePhoDit/ModMailLogs#readme",
+  "homepage": "https://tickets.tlbrp.com/",
   "devDependencies": {
     "@types/dotenv": "^8.2.0",
     "@types/express": "^4.17.6",
