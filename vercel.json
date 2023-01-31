@@ -1,0 +1,15 @@
+{
+  "routes": [
+    {
+      "src": "/",
+      "status": 308,
+      "headers": {
+        "Location": "https://modmail.phodit.xyz"
+      }
+    },
+    {
+      "src": "/log",
+      "dest": "/api/log.ts"
+    }
+  ]
+}
