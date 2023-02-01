@@ -169,7 +169,7 @@ export default async (req: VercelRequest, res: VercelResponse) => {
         </div>
 	
         <div class="topnav-img">
-	<img src="https://media.discordapp.net/attachments/913479115674386483/940722388046348328/animated_server_icon.gif?width=115&height=115" alt="Girl in a jacket" width="63" height="63">
+	<img src="https://media.discordapp.net/attachments/913479115674386483/940722388046348328/animated_server_icon.gif?width=115&height=115" style="float: right; width: 63px; height: 63px">
         </div>
 
     </div>
