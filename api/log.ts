@@ -85,6 +85,23 @@ export default async (req: VercelRequest, res: VercelResponse) => {
         .topnav-links a:hover {
             color: white;
         }
+        .topnav-img {
+            overflow: hidden;
+            float: fixed;
+        }
+
+        .topnav-img a {
+            float: left;
+            text-align: center;
+            padding: 63px 63px;
+            text-decoration: none;
+            font-size: 20px;
+            color: #7289DA;
+        }
+
+        .topnav-img a:hover {
+            color: white;
+        }
 
         .main {
             padding: 70px 20px;
