@@ -167,6 +167,10 @@ export default async (req: VercelRequest, res: VercelResponse) => {
             <a href="https://tickets.tlbrp.com/">Support Hub</a>
             <a href="https://discord.gg/tlbrp">Discord Server</a>
         </div>
+	
+        <div class="topnav-img">
+	<img src="https://media.discordapp.net/attachments/913479115674386483/940722388046348328/animated_server_icon.gif?width=115&height=115" alt="Girl in a jacket" width="63" height="63">
+        </div>
 
     </div>
     
