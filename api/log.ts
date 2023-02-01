@@ -83,7 +83,7 @@ export default async (req: VercelRequest, res: VercelResponse) => {
         }
 
         .topnav-links a:hover {
-            color: white;
+            color: black;
         }
         .topnav-img {
             overflow: hidden;
@@ -100,7 +100,7 @@ export default async (req: VercelRequest, res: VercelResponse) => {
         }
 
         .topnav-img a:hover {
-            color: white;
+            color: black;
         }
 
         .main {
