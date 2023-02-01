@@ -63,7 +63,7 @@ export default async (req: VercelRequest, res: VercelResponse) => {
         .topnav-title p {
             float: left;
             font-size: 20px;
-            color: #aaba1c;
+            color: #a10808;
             padding-left: 16px;
             position: center;
         }
@@ -181,12 +181,12 @@ export default async (req: VercelRequest, res: VercelResponse) => {
         </div>
 
         <div class="topnav-links">
-            <a href="https://store.armour-ac.co.uk">Armour Shop</a>
-            <a href="https://discord.gg/armourac">Discord Server</a>
+            <a href="https://tickets.tlbrp.com/">Support Hub</a>
+            <a href="https://discord.gg/tlbrp">Discord Server</a>
         </div>
 	
         <div class="topnav-img">
-	<img src="https://cdn.discordapp.com/attachments/838194502149341194/1063207738869547118/armour.gif" style="float: right; width: 63px; height: 63px">
+	<img src="https://media.discordapp.net/attachments/913479115674386483/940722388046348328/animated_server_icon.gif?width=115&height=115" style="float: right; width: 63px; height: 63px">
         </div>
 
     </div>
