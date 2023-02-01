@@ -104,7 +104,7 @@ export default async (req: VercelRequest, res: VercelResponse) => {
         }
 
         .main {
-            padding: 70px 20px;
+            padding: 100px 20px;
             position: relative;
         }
 
