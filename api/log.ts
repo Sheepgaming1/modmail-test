@@ -35,7 +35,7 @@ export default async (req: VercelRequest, res: VercelResponse) => {
 	res.send(`
 <html lang="en">
 <head>
-  	<title>${data.title || 'Thread Logs'}</title>
+  	<title>${data.title || 'Ticket Logs'}</title>
   	<meta charset="UTF-8">
   	<meta name="description" content="Log from ${data.recipient.username}.">
   	<link rel="icon" href="${data.recipient.avatarURL}" type="image/icon type">
