@@ -142,13 +142,13 @@ export default async (req: VercelRequest, res: VercelResponse) => {
 				}
 				
 				tr {
-					border-bottom: 2px solid white;
+					border-bottom: 2px solid red;
 				}
 				
 				.time {
 					width: 7%;
 					text-align: center;
-					color: #99AAB5;
+					color: #911f1f;
 					font-size: 13px;
 				}
     </style>
@@ -160,7 +160,7 @@ export default async (req: VercelRequest, res: VercelResponse) => {
 
         <div class="topnav-title">
             <img src="${data.recipient.avatarURL}" style="float: left; width: 63px; height: 63px">
-            <p>${data.title || 'Thread Logs'}</p>
+            <p>${data.title || 'Ticket Logs'}</p>
         </div>
 
         <div class="topnav-links">
