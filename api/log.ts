@@ -20,7 +20,7 @@ export default async (req: VercelRequest, res: VercelResponse) => {
 			<img src="${msg.author.avatarURL}" style="float: left; width: 30px; height: 30px; border-radius: 50%;">
 		</div>
 		<div style="padding-left: 15px">
-			<h3 class="${msg.type}">${msg.author.username}#${msg.author.discriminator} - ${msg.type}</h3> <p style="color:black"> <i>${msg.timestamp} </i> </p>
+			<h3 class="${msg.type}">${msg.author.username}#${msg.author.discriminator} - ${msg.type}</h3> <p style="color:grey"> <i>${msg.timestamp} </i> </p>
 			<p class="content-text">${msg.content}</p>
 			${msg.originalContent ? `<br><p class="content-text" style=font-weight:"bold"><b>Original Content: </b>  ${msg.originalContent}</p>` : ''}
 			${msg.attachments && msg.attachments.length > 0 ? `
@@ -159,13 +159,13 @@ export default async (req: VercelRequest, res: VercelResponse) => {
 				}
 				
 				tr {
-					border-bottom: 2px solid red;
+					border-bottom: 2px solid black;
 				}
 				
 				.time {
 					width: 7%;
 					text-align: center;
-					color: #911f1f;
+					color: #050505;
 					font-size: 13px;
 				}
     </style>
