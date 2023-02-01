@@ -43,7 +43,7 @@ export default async (req: VercelRequest, res: VercelResponse) => {
         body {
             margin: 0;
             font-family: Arial, Helvetica, sans-serif;
-            background-color: #2C2F33
+            background-color: #27292b
         }
 
         .topnav {
